@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
 //entry page
-export default function App() {
+export default function Welcome({ navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.text}> LOOK DEEP DEEP...</Text>
