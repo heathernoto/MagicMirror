@@ -12,13 +12,20 @@ export default function App() {
   return (
     <View style={styles.container}>
       <NavigationContainer style={styles.container}>
-        <Stack.Navigator initialRouteName="enter if you dare">
-          <Stack.Screen name="enter if you dare" component={Welcome} />
-          <Stack.Screen
-            name="Fortune"
-            component={Fortune}
-            options={{ title: 'ask about your future' }}
-          />
+        <Stack.Navigator
+          initialRouteName="enter if you dare"
+          screenOptions={{
+            headerStyle: {
+              backgroundColor: 'black',
+            },
+            headerTintColor: '#fff',
+            headerTitleStyle: {
+              fontFamily: 'Papyrus',
+              fontWeight: 'bold',
+            },
+          }}>
+          <Stack.Screen name="do you dare" component={Welcome} />
+          <Stack.Screen name="Fortune" component={Fortune} />
         </Stack.Navigator>
       </NavigationContainer>
     </View>

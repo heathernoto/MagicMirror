@@ -37,3 +37,8 @@ mirror square
     borderWidth: 1,
     borderStyle: 'dotted',
   },
+TODO: on end of press let mirror crack
+   <Button
+        title="enter here"
+        onPress={() => navigation.navigate('Fortune')}
+      />
