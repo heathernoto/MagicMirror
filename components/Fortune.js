@@ -1,16 +1,16 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, Pressable } from 'react-native';
+import { StyleSheet, Text, View, Image, Button, Pressable } from 'react-native';
 
 export default function Fortune({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}> IF YOU DARE...</Text>
-      <Text style={styles.heading}>
-        {' '}
-        TOUCH MY CRYSTAL BALL AND ASK YOUR QUESTION. "BLACK MAGIC MIRROR WILL
-        ______"
+      <Button title="Get me out of here!" onPress={() => navigation.goBack()} />
+      <Text style={styles.text}>
+        DO YOU DARE? JUST HOLD THE CRSYTAL BALL AND ASK "BLACK MAGIC MIRROR
+        WILL????"
       </Text>
-      <Text style={styles.text}> IF YOU DARE...</Text>
+      <View style={styles.mirror} />
+      <Text></Text>
       <Pressable>
         <Image
           style={styles.img}
@@ -20,7 +20,7 @@ export default function Fortune({ navigation }) {
           }}
         />
       </Pressable>
-      <Text style={styles.text}> ...INTO MY CRYSTAL BALL</Text>
+      <Text></Text>
     </View>
   );
 }
@@ -28,19 +28,27 @@ export default function Fortune({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 60,
+    padding: 20,
     backgroundColor: 'black',
   },
   text: {
     color: 'white',
     textAlign: 'center',
     fontFamily: 'Papyrus',
-    fontSize: 30,
+    fontSize: 15,
   },
   img: {
     alignSelf: 'center',
-    width: 30,
-    height: 30,
+    width: 100,
+    height: 100,
     borderRadius: 30 / 2,
+  },
+  mirror: {
+    alignSelf: 'center',
+    width: 250,
+    height: 300,
+    borderColor: 'silver',
+    borderWidth: 1,
+    borderStyle: 'dotted',
   },
 });
