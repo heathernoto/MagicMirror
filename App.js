@@ -46,16 +46,4 @@ const styles = StyleSheet.create({
     fontFamily: 'Papyrus',
     fontSize: 30,
   },
-  // tiny: {
-  //   color: 'white',
-  //   textAlign: 'center',
-  //   fontFamily: 'Papyrus',
-  //   fontSize: 8,
-  // },
-  // img: {
-  //   alignSelf: 'center',
-  //   width: 300,
-  //   height: 300,
-  //   borderRadius: 200 / 2,
-  // },
 });

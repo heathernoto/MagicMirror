@@ -1,54 +1,10 @@
+
+Working but sends several scores- need to average maybe
+
+
+
+*Additional Resources
+
 Cracked Black Mirror
 https://s3.amazonaws.com/www-inside-design/uploads/2018/10/black-mirror-810x810.jpg
 
-
-onPress function needed
- <Pressable
-        onPress={() => {
-          setTimesPressed((current) => current + 1);
-        }}
-        style={({ pressed }) => [
-          {
-            backgroundColor: pressed
-              ? 'rgb(210, 230, 255)'
-              : 'white'
-          },
-          styles.wrapperCustom
-        ]}>
-
-        add to styles to make bigger area to press around item
-          wrapperCustom: {
-    borderRadius: 8,
-    padding: 6
-  },
-
-hand mirror https://img.pngio.com/amazoncom-inpouch-decorative-vintage-style-silver-tarnish-free-hand-held-mirror-png
-crystal ball
-'https://i.pinimg.com/originals/9a/0c/59/9a0c5982cd2a9d362f6d9b1dbbc90699.png'
-
-mirror square
- <View style={styles.mirror}></View>
-
-   mirror: {
-    alignSelf: 'center',
-    width: 250,
-    height: 300,
-    borderColor: 'white',
-    borderWidth: 1,
-    borderStyle: 'dotted',
-  },
-TODO: on end of press let mirror crack
-   <Button
-        title="enter here"
-        onPress={() => navigation.navigate('Fortune')}
-      />
-<Video id="video">
-height 560 width 720 autoplay muted
-
-Added to info.plist to allow permissions for camera
-might need to edit (PRODUCT NAME )to magic mirrr)
-
-In managed apps, Camera requires Permissions.CAMERA. Video recording requires Permissions.AUDIO_RECORDING.
-
-
-Monday- faces come in as props  see for and determine fortune

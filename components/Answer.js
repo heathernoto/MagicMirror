@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
 
 export const positive = [
   'As I see it, yes.',
@@ -8,6 +8,8 @@ export const positive = [
   'Are you kidding me? Of course!',
   "YEET! (I don't actually know what that means. I'm a phone.",
   'Booyah! Oh yeah!',
+  'Foo-shizzle!',
+  "Let's go Daddy-O!",
 ];
 
 export const neutral = [
@@ -17,6 +19,8 @@ export const neutral = [
   'Concentrate and ask again.',
   'Take a chill pill and ask again later.',
   'Hit me up again later.',
+  'Let me think about it.',
+  "Hmmm, I'll give it a lowkey maybe.",
 ];
 export const negative = [
   "Don't count on it.",
@@ -25,6 +29,8 @@ export const negative = [
   'Are you kidding me? Uh, no.',
   'Are you seriously asking me that?',
   'No! Big yikes!',
+  'Dude, really?',
+  'That idea will have you sitting in the hot seat.',
 ];
 
 //to get number between 0, array length -tested
@@ -33,18 +39,30 @@ export function getRandomInt(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
 }
-//let prediction = positive[getRandomInt(0, 6)];
 
 export default function Answer({ route, navigation }) {
   const [prediction, setPrediction] = useState(0);
-  const { faces } = route.params;
+  const [score, setScore] = useState(0.5);
+  const { faces } = route.params.faces;
+  console.log(score);
 
   useEffect(() => {
-    setPrediction(getRandomInt(0, 6)); //add a field for pos, neg, neut
+    setScore(faces[0]['smilingProbability'].toFixed(2));
+    setPrediction(getRandomInt(0, 8));
   });
+
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>{positive[prediction]} </Text>
+      {score > 0.15 && score < 0.55 && (
+        <Text style={styles.text}>{neutral[prediction]} </Text>
+      )}
+      {score > 0.55 && <Text style={styles.text}>{positive[prediction]} </Text>}
+      {score < 0.15 && <Text style={styles.text}>{negative[prediction]} </Text>}
+      <Button
+        style={styles.button}
+        title="try again"
+        onPress={() => navigation.navigate('do you dare')}
+      />
     </View>
   );
 }
@@ -60,5 +78,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontFamily: 'Papyrus',
     fontSize: 30,
+  },
+  button: {
+    paddingTop: 100,
   },
 });

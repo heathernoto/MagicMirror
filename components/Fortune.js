@@ -7,12 +7,17 @@ import * as FaceDetector from 'expo-face-detector';
 export default function Fortune({ navigation }) {
   const [hasPermission, setHasPermission] = useState(null);
   const [faces, setFaces] = useState([]);
-  const [startCamera, setStartCamera] = useState(false);
+  const [go, setGo] = useState(false);
 
   async function faceDetected({ faces }) {
-    const faceData = await FaceDetector.detectFacesAsync();
-    setFaces(faces);
-    console.log(faceData, faces);
+    go && setFaces({ faces });
+  }
+  function press() {
+    setGo(true);
+  }
+  function unPress() {
+    setGo(false);
+    navigation.navigate('the future', { faces });
   }
 
   useEffect(() => {
@@ -34,27 +39,25 @@ export default function Fortune({ navigation }) {
       <Text style={styles.text}>
         HOLD THE CRYSTAL BALL AND ASK THE MAGIC BLACK MIRROR...
       </Text>
-      <Image
-        style={styles.mirror}
-        source={{
-          uri:
-            'https://i.pinimg.com/originals/f1/54/18/f15418afa2348ad80b882dde6a5e3a91.png',
-        }}
-      />
       <Camera
-        type={Camera.Constants.Type.back}
+        type={Camera.Constants.Type.front}
         onFacesDetected={faceDetected}
         faceDetectorSettings={{
           mode: FaceDetector.Constants.Mode.fast,
-          detectLandmarks: FaceDetector.Constants.Landmarks.none,
+          // detectLandmarks: FaceDetector.Constants.Landmarks.none,
           runClassifications: FaceDetector.Constants.Classifications.all, //to get smile must usw all
-          minDetectionInterval: 100,
-          tracking: true,
-        }}
-      />
-
-      <Pressable
-        onPressOut={() => navigation.navigate('the future', { faces })}>
+          minDetectionInterval: 500,
+          // tracking: true,
+        }}>
+        <Image
+          style={styles.mirror}
+          source={{
+            uri:
+              'https://i.pinimg.com/originals/f1/54/18/f15418afa2348ad80b882dde6a5e3a91.png',
+          }}
+        />
+      </Camera>
+      <Pressable onPressIn={press} onPressOut={unPress}>
         <Image
           style={styles.img}
           source={{
@@ -90,22 +93,6 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     width: 255,
     height: 400,
-    // borderColor: 'silver',
-    // borderWidth: 1,
-    // borderStyle: 'dotted',
     opacity: 0.07,
   },
 });
-
-// {mirror === 'mirror' && (
-//   <Text>
-//     {/* <OurCamera /> */}
-//     mirror
-//   </Text>
-// )}
-// {mirror === 'fortune' && (
-//   <Text>
-//     <Answer />
-//     fortune
-//   </Text>
-// )}
