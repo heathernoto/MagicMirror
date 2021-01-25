@@ -42,3 +42,10 @@ TODO: on end of press let mirror crack
         title="enter here"
         onPress={() => navigation.navigate('Fortune')}
       />
+<Video id="video">
+height 560 width 720 autoplay muted
+
+Added to info.plist to allow permissions for camera
+might need to edit (PRODUCT NAME )to magic mirrr)
+
+In managed apps, Camera requires Permissions.CAMERA. Video recording requires Permissions.AUDIO_RECORDING.

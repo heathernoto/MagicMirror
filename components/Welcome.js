@@ -13,7 +13,7 @@ export default function Welcome({ navigation }) {
             'https://i.pinimg.com/originals/9a/0c/59/9a0c5982cd2a9d362f6d9b1dbbc90699.png',
         }}
       />
-      <Button title="enter" onPress={() => navigation.navigate('Fortune')} />
+      <Button title="enter" onPress={() => navigation.navigate('???')} />
     </View>
   );
 }
