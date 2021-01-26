@@ -6,7 +6,7 @@ export const positive = [
   'It is certain.',
   'It is decidedly so.',
   'Are you kidding me? Of course!',
-  "YEET! (I don't actually know what that means. I'm a phone.",
+  "YEET! (I don't actually know what that means. I'm a phone.)",
   'Booyah! Oh yeah!',
   'Foo-shizzle!',
   "Let's go Daddy-O!",
@@ -44,7 +44,6 @@ export default function Answer({ route, navigation }) {
   const [prediction, setPrediction] = useState(0);
   const [score, setScore] = useState(0.5);
   const { faces } = route.params.faces;
-  console.log(score);
 
   useEffect(() => {
     setScore(faces[0]['smilingProbability'].toFixed(2));
@@ -60,7 +59,7 @@ export default function Answer({ route, navigation }) {
       {score < 0.15 && <Text style={styles.text}>{negative[prediction]} </Text>}
       <Button
         style={styles.button}
-        title="try again"
+        title="ask another"
         onPress={() => navigation.navigate('do you dare')}
       />
     </View>

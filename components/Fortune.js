@@ -44,10 +44,8 @@ export default function Fortune({ navigation }) {
         onFacesDetected={faceDetected}
         faceDetectorSettings={{
           mode: FaceDetector.Constants.Mode.fast,
-          // detectLandmarks: FaceDetector.Constants.Landmarks.none,
-          runClassifications: FaceDetector.Constants.Classifications.all, //to get smile must usw all
+          runClassifications: FaceDetector.Constants.Classifications.all,
           minDetectionInterval: 500,
-          // tracking: true,
         }}>
         <Image
           style={styles.mirror}
