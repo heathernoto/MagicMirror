@@ -8,7 +8,7 @@ export const positive = [
   'Are you kidding me? Of course!',
   "YEET! (I don't actually know what that means. I'm a phone.)",
   'Booyah! Oh yeah!',
-  'Foo-shizzle!',
+  'For sure!',
   "Let's go Daddy-O!",
 ];
 
@@ -24,7 +24,7 @@ export const neutral = [
 ];
 export const negative = [
   "Don't count on it.",
-  'You trippin? No.',
+  'You trippin?',
   'As if!',
   'Are you kidding me? Uh, no.',
   'Are you seriously asking me that?',

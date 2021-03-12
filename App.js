@@ -9,6 +9,7 @@ import Answer from './components/Answer';
 
 const Stack = createStackNavigator();
 //entry page
+
 export default function App() {
   return (
     <View style={styles.container}>
