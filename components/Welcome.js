@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, Button, Image } from 'react-native';
+import * as Animatable from 'react-native-animatable';
 
 //entry page
 export default function Welcome({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>WANT TO KNOW YOUR FUTURE?</Text>
+      <Animatable.View animation="flash" iterationCount="3">
+        <Text style={styles.text}>WANT TO KNOW YOUR FUTURE?</Text>
+      </Animatable.View>
       <Image
         style={styles.img}
         source={{

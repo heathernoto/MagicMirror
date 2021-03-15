@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, Image, Pressable } from 'react-native';
 import { Camera } from 'expo-camera';
-//import { RNCamera, FaceDetector } from 'react-native-camera';
 import * as FaceDetector from 'expo-face-detector';
 
 export default function Fortune({ navigation }) {
