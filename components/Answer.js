@@ -12,6 +12,10 @@ export const positive = [
   "Let's go Daddy-O!",
   'Heck, yeah!',
   'Everyone thinks so!',
+  'Signs point to yes.',
+  'Obviously.',
+  "No doubt.",
+  'Go for it!'
 ];
 
 export const neutral = [
@@ -25,6 +29,10 @@ export const neutral = [
   "Hmmm, I'll give it a lowkey maybe.",
   "I'm not sure about this.",
   "It's six in one, half dozen in the other",
+  'Ask again later.',
+  'Well, maybe.',
+  "Possibily",
+  "You really know the answer to this..."
 ];
 export const negative = [
   "Don't count on it.",
@@ -37,6 +45,10 @@ export const negative = [
   'That idea will have you sitting in the hot seat.',
   'I think you should rethink that idea...',
   'Nope.',
+  'My sources say no.',
+  'In your dreams.',
+  "Odds aren't good.",
+  "Stars say no."
 ];
 //to get number between 0, array length -tested
 export function getRandomInt(min, max) {
@@ -52,7 +64,7 @@ export default function Answer({ route, navigation }) {
 
   useEffect(() => {
     setScore(faces[0]['smilingProbability'].toFixed(2));
-    setPrediction(getRandomInt(0, 10));
+    setPrediction(getRandomInt(0, 14);
   });
 
   return (
