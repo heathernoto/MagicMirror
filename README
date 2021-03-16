@@ -2,7 +2,9 @@ Black Mirror Fortune Teller
 
 This project was built for a bootcamp StackAThon.  When trying to come up with an idea that stretched me, I was trying to think of something fun that could start basic and add features later.
 
-The idea was a simple fortune teller like a Magic 8 ball.  I remember as a kid shaking the Magic * Ball until it gave me the answer that I wanted. What if I could use facial recognition to try and determine the spirit in which the question was asked?  If it's some that excited you, puts a smile on your face- boom, the positive answer you wanted.
+The idea was a simple fortune teller like a Magic 8 ball.  I remember as a kid shaking the Magic 8 Ball until it gave me the answer that I wanted. What if I could use facial recognition to try and determine the spirit in which the question was asked?  If it's some that excited you, puts a smile on your face- boom, the positive answer you wanted.
+
+
 
 My thought that was, like the 8 Ball, you would ask a question.  Because I wanted the user to look into camera to ask the question,  I began thinking of the phone's 'black mirror' quality and the magic mirror in Snow White. Black Mirror Magic..
 
