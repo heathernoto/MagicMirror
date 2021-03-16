@@ -37,11 +37,11 @@ Inspiration struck! :grinning:
 
 
 
->This project was my first foray into :iphone: developement. I had never used React-Native, hooks or it's dev tools. (How do I console.log??) And the facial recognition didn't go that smoothly either. The first couple of libraries I tried I couldn't get to work with Native- leading me to Expo.
+This project was my first foray into :iphone: developement. I had never used React-Native, hooks or it's dev tools. (How do I console.log??) And the facial recognition didn't go that smoothly either. The first couple of libraries I tried I couldn't get to work with Native- leading me to Expo.
 
 
 
->I'm so excited that it works. But there's definitely things that I will be looking to improve, tweak, update when I can come back to it. (I'd like to change it to a PWA so other people can run it.) I'm so excited to have learned soooo much AND to have something that works. I liked working on a mobile app and delving into React-Native.
+I'm so excited that it works. But there's definitely things that I will be looking to improve, tweak, update when I can come back to it. (I'd like to change it to a PWA so other people can run it.) I'm so excited to have learned soooo much AND to have something that works. I liked working on a mobile app and delving into React-Native.
 
 
 
