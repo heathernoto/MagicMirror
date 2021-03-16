@@ -12,10 +12,8 @@ Inspiration struck! :grinning:
 
 
 <img align='left' alt='opening-screen' src='/welcome.PNG' width='125'>
-<img align='left' alt='fortune-teller' src='/overlay.PNG' width='125'>
-
-
-I remember as a kid shaking the :8ball:until it gave me the answer that I wanted. What if I could use facial recognition to try and determine the spirit in which the question was asked? If it's something that excites you, puts a :smile: on your face- boom, the positive answer you wanted.
+I remember as a kid shaking the :8ball: until it gave me the answer that I wanted. What if I could use facial recognition to try and determine the spirit in which the question was asked? If it's something that excites you, puts a :smile: on your face- boom, the positive answer you wanted.
+<img align='left' alt='fortune-teller' src='/overlay.PNG' width='125'>. 
 
 
 <img align='right' alt='smiling-face' src='/smile.PNG' width='125'>
@@ -37,10 +35,6 @@ I'm so excited that it works. But there's definitely things that I will be looki
 
 For a :movie_camera: presentation of my project- [click here!](https://youtu.be/UseosT6p9kQ)
 
-
-For a :movie_camera: presentation of my project- click below!
-
-https://youtu.be/UseosT6p9kQ
 
 Heather
 
