@@ -4,7 +4,7 @@
 
 This project was built for a bootcamp StackAThon.
 
-When trying to come up with an idea for tech I hadn't yet explored, I was trying to think :nerd_face: of something fun that could start basic and add features later.
+When trying to come up with an idea for a bootcamp StackAThon, I was trying to think :nerd_face: of something fun that I could make that would use tech I hadn't before used.
 
 :grinning: Inspiration struck!
 
@@ -27,9 +27,7 @@ This project was my first foray into :iphone: developement. I had never used Rea
 
 I'm so excited that it works. But there's definitely things that I will be looking to improve, tweak, update when I can come back to it. (I'd like to change it to a PWA so other people can run it.) I'm so excited to have learned soooo much AND to have something that works. I liked working on a mobile app and delving into React-Native.
 
-For a :movie_camera: presentation of my project- click below!
-
-https://youtu.be/UseosT6p9kQ
+For a :movie_camera: presentation of my project- [click here!](https://youtu.be/UseosT6p9kQ)
 
 Heather
 
