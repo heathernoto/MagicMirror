@@ -52,8 +52,9 @@ Heather
 
 ## Tech Stack:
 
-[React-Native](https://reactnative.dev/)
-[Expo Cli](https://docs.expo.io/workflow/expo-cli/)
-[Expo Camera and Face Detection](https://docs.expo.io/versions/latest/sdk/camera/)
-[React-Native Animations](https://reactnative.dev/docs/animations)
-[XCode Dev Tools](https://developer.apple.com/xcode/)
+[React-Native](https://reactnative.dev/)\
+[Expo Cli](https://docs.expo.io/workflow/expo-cli/)\
+[Expo Camera and Face Detection](https://docs.expo.io/versions/latest/sdk/camera/)\
+[React-Native Animations](https://reactnative.dev/docs/animations)\
+[XCode Dev Tools](https://developer.apple.com/xcode/)\
+
