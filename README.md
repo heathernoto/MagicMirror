@@ -12,8 +12,10 @@ Inspiration struck! :grinning:
 
 
 <img align='left' alt='opening-screen' src='/welcome.PNG' width='125'>
-I remember as a kid shaking the :8ball: until it gave me the answer that I wanted. What if I could use facial recognition to try and determine the spirit in which the question was asked? If it's something that excites you, puts a :smile: on your face- boom, the positive answer you wanted.
 <img align='left' alt='fortune-teller' src='/overlay.PNG' width='125'>. 
+
+I remember as a kid shaking the :8ball: until it gave me the answer that I wanted. What if I could use facial recognition to try and determine the spirit in which the question was asked? If it's something that excites you, puts a :smile: on your face- boom, the positive answer you wanted.  If it's something you're dreading, :frown: it tells you what you want to hear!
+
 
 
 <img align='right' alt='smiling-face' src='/smile.PNG' width='125'>
