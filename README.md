@@ -2,17 +2,19 @@
 
 ---
 
-This project was built for a bootcamp StackAThon.
 
-When trying to come up with an idea for tech I hadn't yet explored, I was trying to think :nerd_face: of something fun that could start basic and add features later.
 
-:grinning: Inspiration struck!
+When trying to come up with an idea for a Hack-A-Thon project, I wanted to have some fun. I was trying to think :nerd_face: of something different that would allow me to try out something new.
+
+
+Inspiration struck! :grinning: 
+
 
 :8ball: The idea was a simple fortune teller like the toy Magic 8 Ball.
 
 
-<img align='left' alt='opening-screen' src='/welcome.PNG' width='100'>
-<img align='left' alt='fortune-teller' src='/overlay.PNG' width='100'>
+<img align='left' alt='opening-screen' src='/welcome.PNG' width='125'>
+<img align='left' alt='fortune-teller' src='/overlay.PNG' width='125'>
 
 
 
@@ -20,8 +22,8 @@ I remember as a kid shaking the :8ball:until it gave me the answer that I wanted
 
 
 
-<img align='right' alt='smiling-face' src='/smile.PNG' width='100'>
-<img align='right' alt='frowing-face' src='/frown.PNG' width='100'>
+<img align='right' alt='smiling-face' src='/smile.PNG' width='125'>
+<img align='right' alt='frowing-face' src='/frown.PNG' width='125'>
 
 
 
@@ -29,8 +31,8 @@ My thought that was, like the :8ball:, you would ask a question. Because I wante
 
 
 
-<img align='left' alt='positive-fortune' src='/decidedlyso.PNG' width='100'>
-<img align='left' alt='negative-fortune' src='/seriouslyasking.PNG' width='100'>
+<img align='left' alt='positive-fortune' src='/decidedlyso.PNG' width='125'>
+<img align='left' alt='negative-fortune' src='/seriouslyasking.PNG' width='125'>
 
 
 
