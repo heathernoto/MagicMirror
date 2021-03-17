@@ -37,7 +37,6 @@ My thought that was, like the Magic 8 Ball, you would ask a question. Because I 
 <img align='left' alt='negative-fortune' src='/seriouslyasking.PNG' width='125'>
 
 &nbsp;
-&nbsp;
 
 This project was my first foray into mobile development. I had never used React-Native, hooks or it's dev tools. (How do I console.log??) And the facial recognition took sometime to fit together at first. The first couple of libraries I tried I couldn't get to work with Native- leading me to Expo.
 
