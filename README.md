@@ -28,7 +28,7 @@ I remember as a kid shaking the :8ball: until it gave me the answer that I wante
 &nbsp;
 &nbsp;
 
-My thought that was, like the :8ball:, you would ask a question. Because I wanted the user to look into :camera: to ask the question, I began thinking of the phone's 'black mirror' quality and the magic mirror in Snow White. Black mirror magic..
+My thought that was, like the Magic 8 Ball, you would ask a question. Because I wanted the user to look into the camera to ask the question, I began thinking of the phone's 'black mirror' quality and the magic mirror in Snow White. Black mirror magic..
 
 &nbsp;
 &nbsp;
@@ -39,7 +39,7 @@ My thought that was, like the :8ball:, you would ask a question. Because I wante
 &nbsp;
 &nbsp;
 
-This project was my first foray into :iphone: development. I had never used React-Native, hooks or it's dev tools. (How do I console.log??) And the facial recognition took sometime to fit together at first. The first couple of libraries I tried I couldn't get to work with Native- leading me to Expo.
+This project was my first foray into mobile development. I had never used React-Native, hooks or it's dev tools. (How do I console.log??) And the facial recognition took sometime to fit together at first. The first couple of libraries I tried I couldn't get to work with Native- leading me to Expo.
 
 &nbsp;
 
