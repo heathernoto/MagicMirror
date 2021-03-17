@@ -28,21 +28,19 @@ I remember as a kid shaking the :8ball: until it gave me the answer that I wante
 &nbsp;
 &nbsp;
 
-My thought that was, like the Magic 8 Ball, you would ask a question. Because I wanted the user to look into the camera to ask the question, I began thinking of the phone's 'black mirror' quality and the magic mirror in Snow White. Black mirror magic..
+My thought that was, like the Magic 8 Ball, you would ask a question. Because I wanted the user to look into the camera to ask the question, I began thinking of the phone's 'black mirror' quality and the magic mirror in Snow White. ✨ Black mirror fortune teller... ✨
 
 &nbsp;
 &nbsp;
 
 <img align='left' alt='positive-fortune' src='/decidedlyso.PNG' width='125'>
 <img align='left' alt='negative-fortune' src='/seriouslyasking.PNG' width='125'>
+&nbsp;
+This project was my first foray into mobile development.I had never used React-Native, hooks or it's dev tools. (How do I console.log??) And the facial recognition took sometime to fit together at first. The first couple of libraries I tried I couldn't get to work with Native- leading me to Expo. 
 
 &nbsp;
 
-This project was my first foray into mobile development. I had never used React-Native, hooks or it's dev tools. (How do I console.log??) And the facial recognition took sometime to fit together at first. The first couple of libraries I tried I couldn't get to work with Native- leading me to Expo.
-
-&nbsp;
-
-I'm so excited that it works. But there's definitely things that I will be looking to improve, tweak, update when I can come back to it. (I'd like to change it to a PWA so other people can run it.) I'm so excited to have learned soooo much AND to have something that works. I liked working on a mobile app and delving into React-Native.
+:grinning: I'm so excited that it works. But there's definitely things that I will be looking to improve, tweak, update when I can come back to it. (I'd like to change it to a PWA so other people can run it.) I'm so excited to have learned soooo much AND to have something that works. I liked working on a mobile app and delving into React-Native.
 
 &nbsp;
 &nbsp;
