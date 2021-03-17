@@ -65,4 +65,4 @@ For a :movie_camera: presentation of my project- [click here!](https://youtu.be/
 [Expo Cli](https://docs.expo.io/workflow/expo-cli/)\
 [Expo Camera and Face Detection](https://docs.expo.io/versions/latest/sdk/camera/)\
 [React-Native Animations](https://reactnative.dev/docs/animations)\
-[XCode Dev Tools](https://developer.apple.com/xcode/)\
+[XCode Dev Tools](https://developer.apple.com/xcode/)
