@@ -49,9 +49,7 @@ I'm so excited that it works. But there's definitely things that I will be looki
 &nbsp;
 
 
-For a :movie_camera: presentation of my project- [click here!](https://youtu.be/UseosT6p9kQ)
 
-&nbsp;
 
 ## Heather
 
