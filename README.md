@@ -2,7 +2,7 @@
 
 ---
 
-nerd_face:When trying to come up with an idea for a Hack-A-Thon project, I wanted to have some fun. I was trying to think : of something different that would allow me to try out something new.
+:nerd_face:When trying to come up with an idea for a Hack-A-Thon project, I wanted to have some fun. I was trying to think of something different that would allow me to try out something new.
 
 
 Inspiration struck! :grinning:
@@ -17,7 +17,7 @@ Inspiration struck! :grinning:
 &nbsp;
 &nbsp;
 
-I remember as a kid shaking the :8ball: until it gave me the answer that I wanted. What if I could use facial recognition to try and determine the spirit in which the question was asked? If it's something that excites you, puts a :smile: on your face- boom, the positive answer you wanted.  If it's something you're dreading, :frown: it tells you what you want to hear!
+I remember as a kid shaking the :8ball: until it gave me the answer that I wanted. What if I could use facial recognition to try and determine the spirit in which the question was asked? If it's something that excites you, puts a :smile: on your face- boom, the positive answer you wanted.  If it's something you're dreading, :frowning: it tells you what you want to hear!
 
 &nbsp;
 &nbsp;
@@ -41,7 +41,6 @@ My thought that was, like the :8ball:, you would ask a question. Because I wante
 
 This project was my first foray into :iphone: development. I had never used React-Native, hooks or it's dev tools. (How do I console.log??) And the facial recognition took sometime to fit together at first. The first couple of libraries I tried I couldn't get to work with Native- leading me to Expo.
 
-&nbsp;
 &nbsp;
 
 I'm so excited that it works. But there's definitely things that I will be looking to improve, tweak, update when I can come back to it. (I'd like to change it to a PWA so other people can run it.) I'm so excited to have learned soooo much AND to have something that works. I liked working on a mobile app and delving into React-Native.
