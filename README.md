@@ -45,7 +45,7 @@ This project was my first foray into mobile development.I had never used React-N
 &nbsp;
 &nbsp;
 
-
+For a video walkthrough [click here.](https://youtu.be/QR4CEY17qeY)
 
 
 ## Heather
