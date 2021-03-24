@@ -1,6 +1,14 @@
 # :mage_woman: Black Mirror Fortune Teller :mage_man:
 
 ---
+## To run this locally:
+Clone this repo<br/>
+Open in code editor on local machine<br/>
+`NPM install` on local machine<br/>
+`Expo start`<br/>
+Use XCode emulator or Expo app to view on your device<br/>
+
+---
 
 :nerd_face:When trying to come up with an idea for a Hack-A-Thon project, I wanted to have some fun. I was trying to think of something different that would allow me to try out something new.
 
