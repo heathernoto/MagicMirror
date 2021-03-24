@@ -75,31 +75,33 @@ export default function Answer({ route, navigation }) {
 
   //need to put error handler to catch when no face in screen
   useEffect(() => {
-    setScore(faces[0]['smilingProbability'].toFixed(2));
+    faces !== undefined
+      ? setScore(faces[0]['smilingProbability'].toFixed(2))
+      : setScore(0.25);
     setPrediction(getRandomInt(0, 14));
   });
 
   return (
     <View style={styles.container}>
       {score > 0.15 && score < 0.55 && (
-        <Animatable.Text animation={fadeIn} duration="2500" style={styles.text}>
+        <Animatable.Text animation={fadeIn} duration="1500" style={styles.text}>
           {neutral[prediction]}{' '}
         </Animatable.Text>
       )}
       {score > 0.55 && (
-        <Animatable.Text animation={fadeIn} duration="2500" style={styles.text}>
+        <Animatable.Text animation={fadeIn} duration="1500" style={styles.text}>
           {positive[prediction]}{' '}
         </Animatable.Text>
       )}
       {score < 0.15 && (
-        <Animatable.Text animation={fadeIn} duration="2500" style={styles.text}>
+        <Animatable.Text animation={fadeIn} duration="1500" style={styles.text}>
           {negative[prediction]}{' '}
         </Animatable.Text>
       )}
       <Button
         style={styles.button}
         title="ask another"
-        onPress={() => navigation.navigate('do you dare')}
+        onPress={() => navigation.navigate('???')}
       />
     </View>
   );
