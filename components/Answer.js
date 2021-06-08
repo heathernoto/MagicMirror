@@ -61,7 +61,7 @@ const fadeIn = {
   },
 };
 
-//to get number between 0, array length -tested
+//to get number between 0, array length
 export function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
@@ -84,17 +84,17 @@ export default function Answer({ route, navigation }) {
   return (
     <View style={styles.container}>
       {score > 0.15 && score < 0.55 && (
-        <Animatable.Text animation={fadeIn} duration="1500" style={styles.text}>
+        <Animatable.Text animation={fadeIn} duration={1500} style={styles.text}>
           {neutral[prediction]}{' '}
         </Animatable.Text>
       )}
       {score > 0.55 && (
-        <Animatable.Text animation={fadeIn} duration="1500" style={styles.text}>
+        <Animatable.Text animation={fadeIn} duration={1500} style={styles.text}>
           {positive[prediction]}{' '}
         </Animatable.Text>
       )}
       {score < 0.15 && (
-        <Animatable.Text animation={fadeIn} duration="1500" style={styles.text}>
+        <Animatable.Text animation={fadeIn} duration={1500} style={styles.text}>
           {negative[prediction]}{' '}
         </Animatable.Text>
       )}

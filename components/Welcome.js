@@ -6,14 +6,13 @@ import * as Animatable from 'react-native-animatable';
 export default function Welcome({ navigation }) {
   return (
     <View style={styles.container}>
-      <Animatable.View animation="flash" iterationCount="3">
+      <Animatable.View animation="flash" iterationCount={3}>
         <Text style={styles.text}>WANT TO KNOW YOUR FUTURE?</Text>
       </Animatable.View>
       <Image
         style={styles.img}
         source={{
-          uri:
-            'https://i.pinimg.com/originals/9a/0c/59/9a0c5982cd2a9d362f6d9b1dbbc90699.png',
+          uri: 'https://i.pinimg.com/originals/9a/0c/59/9a0c5982cd2a9d362f6d9b1dbbc90699.png',
         }}
       />
       <Button title="enter" onPress={() => navigation.navigate('???')} />
